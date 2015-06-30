@@ -12,18 +12,18 @@ app.get('/', function(req,res){
 
 
 app.get('/concept', function(req,res){
-    res.send("here we will tell the story of concept")
-   // res.sendfile(__dirname+'/public/concept.html');
+   // res.send("here we will tell the story of concept")
+    res.sendfile(__dirname+'/public/concept.html');
 })
 
 app.get('/design', function(req,res){
-     res.send("here we will tell the story of design")
-    //res.sendfile(__dirname+'/public/design.html');
+    // res.send("here we will tell the story of design")
+    res.sendfile(__dirname+'/public/design.html');
 })
 
 app.get('/process', function(req,res){
-     res.send("here we will tell the story of the process")
-    //res.sendfile(__dirname+'/public/process .html');
+    // res.send("here we will tell the story of the process")
+    res.sendfile(__dirname+'/public/process.html');
 })
 
 

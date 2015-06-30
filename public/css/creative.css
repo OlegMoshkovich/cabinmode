@@ -73,7 +73,7 @@ aside {
 }
 
 .no-padding {
-    padding: 200px;
+    padding: 80px;
 }
 
 .navbar-default {
@@ -401,9 +401,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #282828;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #C8C8C8;
 }
 
 .btn-primary:active,
