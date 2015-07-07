@@ -28,6 +28,13 @@ app.get('/process', function(req,res){
 
 
 
+app.get('/template', function(req,res){
+    // res.send("here we will tell the story of the process")
+    res.sendfile(__dirname+'/public/template.html');
+})
+
+
+
 app.listen(process.env.PORT, process.env.IP, function(){
   console.log(" I am listening on some port");
 });
