@@ -1,3 +1,8 @@
 .setup-desc {
     display:none;
 }
+
+.process {
+    border-style: solid;
+    border-width: 1px;
+}
