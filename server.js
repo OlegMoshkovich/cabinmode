@@ -4,15 +4,12 @@ var  app = express();
 
 app.use(express.static('public'));
 
-
-
 app.get('/', function(req,res){
     res.sendfile(__dirname+'/public/index.html');
-})
+});
 
 
 app.get('/concept', function(req,res){
-   // res.send("here we will tell the story of concept")
     res.sendfile(__dirname+'/public/concept.html');
 })
 
