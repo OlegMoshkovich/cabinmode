@@ -17,9 +17,18 @@ $( document ).ready(function() {
    }else{
       $( this).text( "Expand" ) ;
    }
-   
-   
 });
+   
+      $( "#framing-expand" ).click(function() {
+   $( ".framing-desc" ).slideToggle( "slow");
+   if((this).text == "Expand"){
+        $( this ).text( "Collapse" );
+   }else{
+      $( this).text( "Expand" ) ;
+   }
+});
+   
+   
    
     
 });
